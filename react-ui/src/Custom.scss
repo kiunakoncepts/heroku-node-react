@@ -1,0 +1,13 @@
+/* The following block can be included in a custom.scss */
+
+/* make the customizations */
+//$body-bg: #000;
+//$body-color: #ffffff;
+
+$theme-colors: (
+    "primary":teal,
+    "danger": red,
+);
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
